@@ -7,7 +7,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 100px 100px 1fr 100px;
+  grid-template-rows: 100px 50px 1fr 50px;
   gap: 4px;
 }
 
@@ -23,11 +23,12 @@
   background-color: #393f4d;
   grid-area: 1 / 1 / 2 / -1;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 2fr 3fr;
 }
 
 .logo {
   grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
 }
 
 .menu ul {
@@ -105,6 +106,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
